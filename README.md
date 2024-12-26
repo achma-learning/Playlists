@@ -10,3 +10,6 @@ Then open CMD and type the code "yt-dlp -f "bestvideo+bestaudio" -o "%(playlist_
 
 # ver2 :
 yt-dlp -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp downloads\%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
+
+# ver3:
+yt-dlp -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp downloads\%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
