@@ -15,4 +15,4 @@ yt-dlp -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp downlo
 yt-dlp -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp downloads\%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
 
 # ver4:
-yt-dlp --cookies "C:\Users\Mohamed-Aymane\Videos\cookies.txt" -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp downloads\%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
+yt-dlp --cookies "C:\Users\Mohamed-Aymane\Videos\cookies.txt" -f "bestvideo+bestaudio" -o "C:\Users\Mohamed-Aymane\Videos\yt-dlp/%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
