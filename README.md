@@ -1,3 +1,6 @@
+## how about download video, then uploading them to web.archive or free hosting platform, then use a github site to have a digital backup
+
+
 # Playlists
 # code:
 yt-dlp -f "bestvideo+bestaudio" -o "%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
