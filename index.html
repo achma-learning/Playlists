@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Daily Videos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Video Showcase</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="nav-container">
+            <nav class="main-nav">
+                <a href="#" class="nav-logo">Showcase</a>
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link">Today's Picks</a></li>
+                    <li><a href="#" class="nav-link">All Videos</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <header>
-    <h1>🎬 Daily Playlist Videos</h1>
-    <p>Updated automatically from multiple playlists</p>
-  </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">A new video, every day.</h1>
+            <p class="hero-subtitle">A curated collection of videos from your favorite playlists, updated daily.</p>
+        </section>
 
-  <main>
-    <div id="videos" class="video-grid"></div>
-  </main>
+        <section class="video-section">
+            <div id="video-grid-container" class="video-grid-container">
+                <!-- Videos will be dynamically injected here by app.js -->
+            </div>
+        </section>
+    </main>
 
-  <footer>
-    <p>Powered by Invidious · FreeTube-style · No Google API</p>
-  </footer>
+    <footer class="main-footer">
+        <p>Powered by the community. Built for discovery.</p>
+    </footer>
 
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
